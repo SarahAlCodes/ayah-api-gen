@@ -1,6 +1,75 @@
+document.querySelector('button').addEventListener('click', apiRequest)
+
+async function apiRequest(){
+    const teaName = document.querySelector('input').value
+    try{
+        const response = await fetch(`https://ayah-api-gen.herokuapp.com/api/${teaName}`)
+        const data = await response.json()
+        console.log(data)
+
+        document.getElementById('').innerText = data.
+        document.getElementById('').innerText = data.
+        document.getElementById('').innerText = data.
+        document.getElementById('').innerText = data.
+            
+    } catch(error){
+        console.log(error)
+    }
+}
 
 
-// //Example fetch using pokemonapi.co
+
+
+
+
+//Example fetch using pokemonapi.co
+document.querySelector('button').addEventListener('click', apiRequest)
+
+function apiRequest(){
+  const teaName = document.querySelector('input').value
+  console.log(teaName)
+
+  const url = `https://ayah-api-gen.herokuapp.com/api/${teaName}`
+
+
+  fetch(url)
+      .then(res => res.json()) // parse response as JSON
+      .then(data => {
+        console.log(data)
+        if( data.media_type === 'image' ){
+          document.querySelector('img').src = data.hdurl
+        }else if(data.media_type === 'video'){
+          document.querySelector('iframe').src = data.url
+        }
+       
+        document.querySelector('#arabicVerseText').innerText = data.explanation
+      })
+      .catch(err => {
+          console.log(`error ${err}`)
+      });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // var arText;
 // var enText;
 // var surah;
