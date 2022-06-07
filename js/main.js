@@ -23,7 +23,7 @@ document.querySelector('button').addEventListener('click', apiRequest)
 
 function apiRequest(){
   const surahName = document.querySelector('input').value
-  console.log(teaName)
+  console.log(surahName)
 
   const url = `https://ayah-api-gen.herokuapp.com/api/${surahName}`
 

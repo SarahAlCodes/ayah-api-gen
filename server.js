@@ -6,21 +6,25 @@ const PORT = 8000
 app.use(cors())
 
 const surah = {
-    'Maryam':{
+    'maryam':{
         'arabicVerseText': 'فَنَادَىٰهَا مِن تَحْتِهَآ أَلَّا تَحْزَنِى قَدْ جَعَلَ رَبُّكِ تَحْتَكِ سَرِيًّۭا',
         'verseText': 'So a voice reassured her from below her, “Do not grieve! Your Lord has provided a stream at your feet.',
-        'surahAndAyah': '19:24',
+        'surahAndAyah': '19:24'
     },
-    'Ibrahim':{
+    'ibrahim':{
         'arabicVerseText': 'وَمَثَلُ كَلِمَةٍ خَبِيثَةٍۢ كَشَجَرَةٍ خَبِيثَةٍ ٱجْتُثَّتْ مِن فَوْقِ ٱلْأَرْضِ مَا لَهَا مِن قَرَارٍۢ ',
         'verseText': 'And the parable of an evil word is that of an evil tree, uprooted from the earth, having no stability..',
-        'surahAndAyah': '14:26',
+        'surahAndAyah': '14:26'
     },
-    'Ghafir':{
+    'ghafir':{
         'arabicVerseText': 'تَنزِيلُ ٱلْكِتَـٰبِ مِنَ ٱللَّهِ ٱلْعَزِيزِ ٱلْعَلِيمِ',
         'verseText': 'The revelation of this Book is from Allah—the Almighty, All-Knowing',
-        'surahAndAyah': '40:2',
+        'surahAndAyah': '40:2'
     },
+    'unknown':{
+        'verseText': 'unknown',
+        'surahAndAyah': 'unknown'
+    }
 }
 
 app.get('/', (request,response)=>{
