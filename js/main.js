@@ -1,7 +1,7 @@
 document.querySelector('button').addEventListener('click', apiRequest)
 
 function apiRequest(){
-  var ayah = Math.floor(Math.random() * 6236) + 1 
+  //var ayah = Math.floor(Math.random() * 6236) + 1 
   const surahName = document.querySelector('input').value
   console.log(surahName)
 
