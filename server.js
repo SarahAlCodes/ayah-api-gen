@@ -103,6 +103,7 @@ const surah = {
     }, 
      
     'unknown':{
+        'arabicVerseText': 'unknown',
         'verseText': 'unknown',
         'surahAndAyah': 'unknown'
     }
