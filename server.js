@@ -13,7 +13,7 @@ const surah = {
     },
     'imran':{
         'arabicVerseText': 'إِنَّ ٱلدِّينَ عِندَ ٱللَّهِ ٱلْإِسْلَـٰمُ ۗ وَمَا ٱخْتَلَفَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْعِلْمُ بَغْيًۢا بَيْنَهُمْ ۗ وَمَن يَكْفُرْ بِـَٔايَـٰتِ ٱللَّهِ فَإِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ',
-        'verseText': 'Certainly, Allah\’s only Way is Islam.1 Those who were given the Scripture did not dispute ˹among themselves˺ out of mutual envy until knowledge came to them. Whoever denies Allah\’s signs, then surely Allah is swift in reckoning.',
+        'verseText': 'Certainly, Allah\’s only Way is Islam. Those who were given the Scripture did not dispute ˹among themselves˺ out of mutual envy until knowledge came to them. Whoever denies Allah\’s signs, then surely Allah is swift git afin reckoning.',
         'surahAndAyah': '3:19'
     },
     'an-nisa':{
