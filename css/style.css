@@ -24,7 +24,6 @@ header .logo
 {
   color: #fff;
   text-transform: uppercase;
-  cursor: pointer;
 }
 .toggle
 {
@@ -35,10 +34,9 @@ header .logo
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: center;
-  cursor: pointer;
 }
 
-.showcase img
+.left-section img
 {
   position: absolute;
   top: 0;
@@ -52,7 +50,7 @@ header .logo
   height: 100vh;
 }
 
-.showcase
+.left-section
 {
   position: absolute;
   right: 0;
@@ -66,7 +64,7 @@ header .logo
   transition: 0.2s;
   z-index: 2;
 }
-.showcase.active
+.left-section.active
 {
   right: 300px;
 }
@@ -98,7 +96,7 @@ header .logo
 
 .text p
 {
-  font-size: 1.4em;
+  font-size: 1.5em;
   color: white;
   margin: 20px 0;
   font-weight: 400;
@@ -127,8 +125,8 @@ header .logo
 
 @media (max-width: 798px)
 {
-  .showcase,
-  .showcase header
+  .left-section,
+  .left-section header
   {
     padding: 40px;
   }
