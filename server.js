@@ -1,3 +1,4 @@
+
 const express = require('express')
 const app = express()
 const cors = require('cors')
@@ -101,7 +102,6 @@ const surah = {
         'verseText': 'But whoever comes to Him as a believer, having done good, they will have the highest ranks:',
         'surahAndAyah': 'Quran 20:75'
     }, 
-     
     'unknown':{
         'arabicVerseText': 'unknown',
         'verseText': 'unknown',
