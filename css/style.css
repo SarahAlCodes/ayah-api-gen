@@ -82,7 +82,7 @@ header .logo
 }
 .text h2
 {
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: 800;
   color: white;
   line-height: 1.5em;
@@ -90,7 +90,7 @@ header .logo
 }
 .text p
 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
   margin: 20px 0;
   font-weight: 400;
