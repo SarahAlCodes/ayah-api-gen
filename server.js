@@ -2,7 +2,11 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
+
+
 const PORT = 8000
+app.listen(PORT)
+console.log(`Server running on port ${PORT}`)
 
 app.use(cors())
 
@@ -102,6 +106,146 @@ const surah = {
         'verseText': 'But whoever comes to Him as a believer, having done good, they will have the highest ranks:',
         'surahAndAyah': 'Quran 20:75'
     }, 
+    'al-anbiya':{
+        'arabicVerseText': 'كُلُّ نَفْسٍۢ ذَآئِقَةُ ٱلْمَوْتِ ۗ وَنَبْلُوكُم بِٱلشَّرِّ وَٱلْخَيْرِ فِتْنَةًۭ ۖ وَإِلَيْنَا تُرْجَعُونَ',
+        'verseText': 'Every soul will taste death. And We test you ˹O humanity˺ with good and evil as a trial, then to Us you will ˹all˺ be returned.',
+        'surahAndAyah': 'Quran 21:35'
+    }, 
+    'al-hajj':{
+        'arabicVerseText': 'يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱرْكَعُوا۟ وَٱسْجُدُوا۟ وَٱعْبُدُوا۟ رَبَّكُمْ وَٱفْعَلُوا۟ ٱلْخَيْرَ لَعَلَّكُمْ تُفْلِحُونَ',
+        'verseText': 'O believers! Bow down, prostrate yourselves, worship your Lord, and do ˹what is˺ good so that you may be successful.',
+        'surahAndAyah': 'Quran 22:77'
+    }, 
+    'al-muminun':{
+        'arabicVerseText': 'And indeed, We created above you seven levels ˹of heaven˺. We are never unmindful of ˹Our˺ creation.',
+        'verseText': 'وَلَقَدْ خَلَقْنَا فَوْقَكُمْ سَبْعَ طَرَآئِقَ وَمَا كُنَّا عَنِ ٱلْخَلْقِ غَـٰفِلِينَ',
+        'surahAndAyah': 'Quran 23:17'
+    }, 
+    'an-nur':{
+        'arabicVerseText': 'وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ وَأَنَّ ٱللَّهَ رَءُوفٌۭ رَّحِيمٌۭ',
+        'verseText': '˹You would have suffered,˺ had it not been for Allah/’s grace and mercy upon you, and had Allah not been Ever Gracious, Most Merciful.',
+        'surahAndAyah': 'Quran 24:20'
+    }, 
+    'al-furqan':{
+        'arabicVerseText': 'وَهُوَ ٱلَّذِىٓ أَرْسَلَ ٱلرِّيَـٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءًۭ طَهُورًۭا',
+        'verseText': 'And He is the One Who sends the winds ushering in His mercy, and We send down pure rain from the sky,',
+        'surahAndAyah': 'Quran 25:48'
+    }, 
+    'ash-shuara':{
+        'arabicVerseText': 'إِنَّ فِى ذَٰلِكَ لَـَٔايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ',
+        'verseText': 'Surely in this is a sign. Yet most of them would not believe.',
+        'surahAndAyah': 'Quran 26:67'
+    }, 
+    'an-naml':{
+        'arabicVerseText': 'فَتَوَكَّلْ عَلَى ٱللَّهِ ۖ إِنَّكَ عَلَى ٱلْحَقِّ ٱلْمُبِينِ',
+        'verseText': 'So put your trust in Allah, for you are surely upon the ˹Path of˺ clear truth.',
+        'surahAndAyah': 'Quran 27:79'
+    }, 
+    'al-qasa':{
+        'arabicVerseText': 'فَخَسَفْنَا بِهِۦ وَبِدَارِهِ ٱلْأَرْضَ فَمَا كَانَ لَهُۥ مِن فِئَةٍۢ يَنصُرُونَهُۥ مِن دُونِ ٱللَّهِ وَمَا كَانَ مِنَ ٱلْمُنتَصِرِينَ',
+        'verseText': 'Then We caused the earth to swallow him up, along with his home. There was no one to help him against Allah, nor could he even help himself.',
+        'surahAndAyah': 'Quran 28:81'
+    }, 
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // }, 
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // }, 
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // }, 
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // },
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // }, 
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // },
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // }, 
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // },
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // }, 
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // },
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // }, 
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // },
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // }, 
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // },
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // }, 
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // },
+     // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // }, 
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // },
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // }, 
+    // '':{
+    //     'arabicVerseText': '',
+    //     'verseText': '',
+    //     'surahAndAyah': ''
+    // },
     'unknown':{
         'arabicVerseText': 'unknown',
         'verseText': 'unknown',
